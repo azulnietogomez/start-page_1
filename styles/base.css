@@ -1,0 +1,39 @@
+:root {
+    /*==COLORS==*/
+    --blue-bg: #1C3879;
+    --grey-blue: #607EAA;
+    --text-color: #EAE3D2;
+    --beige: #F9F5EB; 
+
+    /*==Fonts==*/
+    --IBM: 'IBM Plex Mono', monospace;
+    --pixel: 'Press Start 2P', cursive;
+}
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    outline: solid 1px red;
+}
+
+
+body {
+    font-family: var(--IBM);
+    color: var(--text-color);
+    background-color: var(--blue-bg);
+
+}
+
+
+html {
+    font-size: 62.5%;
+
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
