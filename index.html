@@ -18,21 +18,25 @@
 </head>
 <body>
     <div class="img-container">
-        <div class="date-container">
-            <h1 class="date" id="Date">adsasdasdad</h2>
-        </div>
+        <div class="clock" id="DisplayClock" onload="showTime"></div>
         <div class="img"></div>
     </div>
     <div class="wrapper">
         <div class="phrase">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, iure.</div>
         <div class="search-bar-container">
-            <form class="search" id="search" method="get" action="https://www.google.com/search" autocomplete="off">
+            <form class="search search-google" id="search" method="get" action="https://www.google.com/search" autocomplete="off">
+                <input class="search-field" id="search-input" type="text" name="q" maxlength="100">
+            </form>
+            <form class="search search-duck" id="search" method="get" action="https://www.google.com/search" autocomplete="off">
+                <input class="search-field" id="search-input" type="text" name="q" maxlength="100">
+            </form>
+            <form class="search search-youtube" id="search" method="get" action="https://www.google.com/search" autocomplete="off">
                 <input class="search-field" id="search-input" type="text" name="q" maxlength="100">
             </form>
         </div>
         <div class="link-wrapper">
             <div class="link-container">
-                <h3 class="link-container-title">Dummy Title</h3>
+                <h3 class="link-container-title">Stores</h3>
                 <ul>
                     <li><a href="#">Test Link UwU</a></li>
                     <li><a href="#">Test Link UwU</a></li>
@@ -41,7 +45,7 @@
                 </ul>
             </div>
             <div class="link-container">
-                <h3 class="link-container-title">Dummy Title</h3>
+                <h3 class="link-container-title">News</h3>
                 <ul>
                     <li><a href="#">Test Link UwU</a></li>
                     <li><a href="#">Test Link UwU</a></li>
@@ -50,7 +54,43 @@
                 </ul>
             </div>
             <div class="link-container">
-                <h3 class="link-container-title">Dummy Title</h3>
+                <h3 class="link-container-title">Dev</h3>
+                <ul>
+                    <li><a href="#">Test Link UwU</a></li>
+                    <li><a href="#">Test Link UwU</a></li>
+                    <li><a href="#">Test Link UwU</a></li>
+                    <li><a href="#">Test Link UwU</a></li>
+                </ul>
+            </div>
+            <div class="link-container">
+                <h3 class="link-container-title">Work</h3>
+                <ul>
+                    <li><a href="#">Test Link UwU</a></li>
+                    <li><a href="#">Test Link UwU</a></li>
+                    <li><a href="#">Test Link UwU</a></li>
+                    <li><a href="#">Test Link UwU</a></li>
+                </ul>
+            </div>
+            <div class="link-container">
+                <h3 class="link-container-title">Social</h3>
+                <ul>
+                    <li><a href="#">Test Link UwU</a></li>
+                    <li><a href="#">Test Link UwU</a></li>
+                    <li><a href="#">Test Link UwU</a></li>
+                    <li><a href="#">Test Link UwU</a></li>
+                </ul>
+            </div>
+            <div class="link-container">
+                <h3 class="link-container-title">Entretaiment</h3>
+                <ul>
+                    <li><a href="#">Test Link UwU</a></li>
+                    <li><a href="#">Test Link UwU</a></li>
+                    <li><a href="#">Test Link UwU</a></li>
+                    <li><a href="#">Test Link UwU</a></li>
+                </ul>
+            </div>
+            <div class="link-container">
+                <h3 class="link-container-title">Tools</h3>
                 <ul>
                     <li><a href="#">Test Link UwU</a></li>
                     <li><a href="#">Test Link UwU</a></li>
